@@ -9,6 +9,9 @@ My main priority in work is to *continuously learn* new things and obtain new sk
 
 I have about 10 years of experience in the science field. I started my career as design engineer. I was responsible for the development of the structure of remotely controlled aircrafts. At the moment I am conducting scientific research in the field of material  science.
 ## Skills
+* Git
+* HTML
+* CSS
 ## Code examples
 [Please follow a link to check my GitHub repozitory](https://github.com/NataliaMelnik/rsschool-cv)
 ## Work experience
