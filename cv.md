@@ -13,6 +13,13 @@ I have about 10 years of experience in the science field. I started my career as
 ## Work experience
 I do not have any working experience in the IT field.
 ## Education
+BNTU (Belarusian National Technical University) ’10, Mechanics and technology faculty, engineer
+
+BNTU (Intersectoral institute for staff training and retraining on management and personnel development) ’10, Business economics
+
+BNTU (Belarusian National Technical University) ’11, master
+ 
+Course Coursera (English for Science, Technology, Engineering, and Mathematics) ’20
 ## English level
 **Speaking:** A2
 
