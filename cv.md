@@ -11,6 +11,7 @@ I have about 10 years of experience in the science field. I started my career as
 ## Skills
 ## Code examples
 ## Work experience
+I do not have any working experience in the IT field.
 ## Education
 ## English level
 **Speaking:** A2
