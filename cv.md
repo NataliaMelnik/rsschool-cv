@@ -12,6 +12,7 @@ I have about 10 years of experience in the science field. I started my career as
 * Git
 * HTML
 * CSS
+
 ## Code examples
 [Please follow a link to check my GitHub repozitory](https://github.com/NataliaMelnik/rsschool-cv)
 ## Work experience
