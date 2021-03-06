@@ -47,6 +47,27 @@ body{
   text-align: center;
 }
 
+.footer-block{
+  display: flex;
+  height: 40px;
+  background: #cfd6dd;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-block a{
+  text-decoration: none;
+}
+
+.footer-subitem{
+  margin: 0 30px;
+}
+
+.footer-logo{
+  width: 70px;
+  height: 70px;
+}
+
 
 
   
