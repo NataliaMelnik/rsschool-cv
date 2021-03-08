@@ -47,6 +47,30 @@ body{
   text-align: center;
 }
 
+.horizontal-line{
+  background-color: #eff0f2;
+  width: 100%;
+  height: 4px;
+  margin: 10 0;
+}
+
+.article-table{
+  height: 500px;
+
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.column{
+  width: 40%;
+}
+
+.verical-line{
+  background-color: #eff0f2;
+  width: 4px;
+}
+
 .footer-block{
   display: flex;
   height: 40px;
