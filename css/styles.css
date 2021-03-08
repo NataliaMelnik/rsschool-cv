@@ -55,8 +55,6 @@ body{
 }
 
 .article-table{
-  height: 500px;
-
   margin-top: 20px;
   display: flex;
   justify-content: space-between;
@@ -71,12 +69,26 @@ body{
   width: 4px;
 }
 
+.info-section{
+  margin-bottom: 30px;
+}
+
+.info-section h3{
+  font-size: 1.4em;
+  color: #a4a3a2;
+}
+
+.info-section ul{
+  list-style-type: circle;
+}
+
 .footer-block{
   display: flex;
   height: 40px;
   background: #cfd6dd;
   justify-content: space-between;
   align-items: center;
+  margin-top: 20px;
 }
 
 .footer-block a{
