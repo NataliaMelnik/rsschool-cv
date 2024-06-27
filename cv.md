@@ -21,10 +21,6 @@ I have about 14 years of experience in the science field. I started my career as
 ## Code examples
 
 ```'use strict';
-alert('Hello world'); // комментарий
-/*
-многострочный комментарий
-*/
 let a = 214;
 let flag = true;
 for (let i = 2; i <= a - 1; i++) {
