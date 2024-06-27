@@ -20,6 +20,25 @@ I have about 14 years of experience in the science field. I started my career as
 
 ## Code examples
 
+```'use strict';
+alert('Hello world'); // комментарий
+/*
+многострочный комментарий
+*/
+let a = 214;
+let flag = true;
+for (let i = 2; i <= a - 1; i++) {
+  if (a % i == 0) {
+    console.log(a + ' обычное число');
+    flag = false;
+    break;
+  }
+}
+if (flag == true) {
+  console.log(a + ' простое число');
+}
+```
+
 ## Work experience
 
 I do not have any working experience in the IT field.
