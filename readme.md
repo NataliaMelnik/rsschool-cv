@@ -1,3 +1,2 @@
-
-https://nataliamelnik.github.io/rsschool-cv/
+https://github.com/NataliaMelnik/rsschool-cv
 
