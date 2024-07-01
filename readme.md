@@ -1,2 +1,2 @@
-https://github.com/NataliaMelnik/rsschool-cv
+https://github.com/NataliaMelnik/rsschool-cv/tree/gh-pages
 
