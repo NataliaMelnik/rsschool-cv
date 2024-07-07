@@ -38,6 +38,7 @@ body {
   line-height: 50px;
   transition: 0.3s;
   cursor: pointer;
+  color: #808a7b;
 }
 
 .section-item a {
@@ -51,11 +52,11 @@ body {
 }
 
 .main-container {
-  display: flex;
-  flex-wrap: wrap;
+  column-count: 2;
+  margin: 20px;
 }
 .section {
-  width: 50%;
+  width: 90%;
 }
 
 @media (max-width: 768px) {
@@ -84,4 +85,11 @@ body {
   display: block;
   margin: 0 auto;
   max-height: 300px;
+}
+.centre {
+  text-align: center;
+}
+
+.photo-link {
+  width: 30px;
 }

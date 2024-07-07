@@ -14,6 +14,7 @@
           <img src="./assets/img/avatar.jpg" alt="avatar" class="photo" />
         </div>
       </div>
+      <h1 class="centre">Melnik Natalia</h1>
       <div class="container">
         <nav class="nav">
           <ul class="nav-list">
@@ -47,16 +48,12 @@
     </header>
     <main class="main-container">
       <div class="container">
-        <section class="section" id="profile">
-          <h1 class="section-title">Profile</h1>
-          <p>Melnik Natalia</p>
-        </section>
         <section class="section" id="contacts">
-          <h1 class="section-title">Contacts</h1>
+          <h2 class="section-title">Contacts</h2>
           <p>Phone: +375292623400 E-mail: bukato.natallia@gmail.com</p>
         </section>
         <section class="section" id="Summary">
-          <h1 class="section-title">Summary</h1>
+          <h2 class="section-title">Summary</h2>
           <p>
             My main priority in work is to continuously learn new things and
             obtain new skills. My goal is to benefit society in different ways
@@ -69,30 +66,48 @@
           </p>
         </section>
         <section class="section" id="skills">
-          <h1 class="section-title">Skills</h1>
+          <h2 class="section-title">Skills</h2>
           <ul>
             <li>Git</li>
             <li>HTML</li>
             <li>CSS</li>
+            <li>JavaScript</li>
           </ul>
         </section>
         <section class="section" id="code">
-          <h1 class="section-title">Code</h1>
-          <p>-</p>
+          <h2 class="section-title">Code</h2>
+          <pre>
+            'use strict';
+            let a = 214;
+            let flag = true;
+            for (let i = 2; i <= a - 1; i++) {
+              if (a % i == 0) {
+              console.log(a + ' обычное число');
+              flag= false;
+              break;
+             }
+            } if (flag == true) {
+              console.log(a + ' простое число');
+             }
+          </pre>
         </section>
         <section class="section" id="courses">
-          <h1 class="section-title">Courses</h1>
+          <h2 class="section-title">Courses</h2>
           <p>
             Course Coursera (English for Science, Technology, Engineering, and
             Mathematics) ’20
           </p>
         </section>
         <section class="section" id="projects">
-          <h1 class="section-title">Projects</h1>
-          <p>-</p>
+          <h2 class="section-title">Projects</h2>
+          <p>
+            <a href="https://github.com/NataliaMelnik/rsschool-cv/tree/gh-pages"
+              >My projects
+            </a>
+          </p>
         </section>
         <section class="section" id="education">
-          <h1 class="section-title">Education</h1>
+          <h2 class="section-title">Education</h2>
           <ul>
             <li>
               BNTU (Belarusian National Technical University) ’10, Mechanics and
@@ -106,7 +121,7 @@
           </ul>
         </section>
         <section class="section" id="english">
-          <h1 class="section-title">English</h1>
+          <h2 class="section-title">English</h2>
           <ul>
             <li>Speaking: A2</li>
             <li>Writing: A2</li>
@@ -115,7 +130,12 @@
       </div>
     </main>
     <footer class="footer">
-      <div class="container">English level Speaking: A2 Writing: A2</div>
+      <div class="container">
+        <img src="./assets/img/github.jpg" alt="git" class="photo-link" />
+        <a href="https://github.com/NataliaMelnik">GitHub Natalia Melnik</a>
+        <img src="./assets/img/school.jpg" alt="RsSchool" class="photo-link" />
+        <a href="https://app.rs.school/">The Rolling Scopes 2024</a>
+      </div>
     </footer>
   </body>
 </html>
