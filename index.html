@@ -1,13 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>cv</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="assets/favicon.ico" />
   </head>
   <body>
-    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque tempore
-    eligendi ut aperiam animi omnis, numquam rerum, harum nobis quod laboriosam
-    quis quibusdam corrupti non porro voluptates possimus reiciendis doloremque?
+    <header class="header">
+      <div class="wrapper">
+        <div class="header-photo">
+          <img src="./assets/img/avatar.jpg" alt="avatar" class="photo" />
+        </div>
+      </div>
+      <h1 class="centre">Melnik Natalia</h1>
+      <div class="container">
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#contacts" class="nav-link">Contacts</a>
+            </li>
+            <li class="nav-item">
+              <a href="#summary" class="nav-link">Summary</a>
+            </li>
+            <li class="nav-item">
+              <a href="#skills" class="nav-link">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a href="#code" class="nav-link">Code</a>
+            </li>
+            <li class="nav-item">
+              <a href="#courses" class="nav-link">Courses</a>
+            </li>
+            <li class="nav-item">
+              <a href="#projects" class="nav-link">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a href="#education" class="nav-link">Aducation</a>
+            </li>
+            <li class="nav-item">
+              <a href="#english" class="nav-link">English</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="main-container">
+      <div class="container">
+        <section class="section" id="contacts">
+          <h2 class="section-title">Contacts</h2>
+          <p>Phone: +375292623400 E-mail: bukato.natallia@gmail.com</p>
+        </section>
+        <section class="section" id="Summary">
+          <h2 class="section-title">Summary</h2>
+          <p>
+            My main priority in work is to continuously learn new things and
+            obtain new skills. My goal is to benefit society in different ways
+            and also I am interested in work that allows me feel free in
+            choosing a place, city or even country. I have about 14 years of
+            experience in the science field. I started my career as design
+            engineer. I was responsible for the development of the structure of
+            remotely controlled aircrafts. At the moment I am conducting
+            scientific research in the field of material science.
+          </p>
+        </section>
+        <section class="section" id="skills">
+          <h2 class="section-title">Skills</h2>
+          <ul>
+            <li>Git</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+          </ul>
+        </section>
+        <section class="section" id="code">
+          <h2 class="section-title">Code</h2>
+          <pre>
+            'use strict';
+            let a = 214;
+            let flag = true;
+            for (let i = 2; i <= a - 1; i++) {
+              if (a % i == 0) {
+              console.log(a + ' обычное число');
+              flag= false;
+              break;
+             }
+            } if (flag == true) {
+              console.log(a + ' простое число');
+             }
+          </pre>
+        </section>
+        <section class="section" id="courses">
+          <h2 class="section-title">Courses</h2>
+          <p>
+            Course Coursera (English for Science, Technology, Engineering, and
+            Mathematics) ’20
+          </p>
+        </section>
+        <section class="section" id="projects">
+          <h2 class="section-title">Projects</h2>
+          <p>
+            <a href="https://github.com/NataliaMelnik/rsschool-cv/tree/gh-pages"
+              >My projects
+            </a>
+          </p>
+        </section>
+        <section class="section" id="education">
+          <h2 class="section-title">Education</h2>
+          <ul>
+            <li>
+              BNTU (Belarusian National Technical University) ’10, Mechanics and
+              technology faculty, engineer
+            </li>
+            <li>
+              BNTU (Intersectoral institute for staff training and retraining on
+              management and personnel development) ’10, Business economics
+            </li>
+            <li>BNTU (Belarusian National Technical University) ’11, master</li>
+          </ul>
+        </section>
+        <section class="section" id="english">
+          <h2 class="section-title">English</h2>
+          <ul>
+            <li>Speaking: A2</li>
+            <li>Writing: A2</li>
+          </ul>
+        </section>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <img src="./assets/img/github.jpg" alt="git" class="photo-link" />
+        <a href="https://github.com/NataliaMelnik">GitHub Natalia Melnik</a>
+        <img src="./assets/img/school.jpg" alt="RsSchool" class="photo-link" />
+        <a href="https://app.rs.school/">The Rolling Scopes 2024</a>
+      </div>
+    </footer>
   </body>
 </html>
